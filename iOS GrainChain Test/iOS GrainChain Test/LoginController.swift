@@ -20,7 +20,7 @@ class LoginController: UIViewController {
     
     let baseUrl = "https://kdmldkvxoe.execute-api.us-west-2.amazonaws.com/test"
     var alert =  UIAlertController()
-    var statusCode = Int()
+    var statusCode: Int?
     var nameUser = String()
     
     override func viewDidLoad() {
@@ -75,19 +75,19 @@ class LoginController: UIViewController {
                           "password": txtPassword.text!]
         Alamofire.request(baseUrl, method: .post, parameters: parameters, encoding: JSONEncoding.default).responseJSON { (response) in
             self.alert.dismiss(animated: true, completion: nil)
+            print(response.result.value)
             let data = response.result.value
             let errorMessage = ((data as! [String:Any])["errorMessage"])
             if errorMessage == nil {
-                self.statusCode = (data as! NSDictionary).value(forKey: "statusCode") as! Int
+                self.statusCode = (data as! NSDictionary).value(forKey: "statusCode") as? Int
             }
             switch response.result{
             case.success:
-                if self.statusCode == 200 {
+                if self.statusCode == 200{
                     let body = (((data as! NSDictionary).value(forKey: "body") as! NSDictionary).value(forKey: "auth") as! NSDictionary).value(forKey: "user") as! NSDictionary
                     let name = body.value(forKey: "name")
                     let lastName = body.value(forKey: "lastname")
                     self.nameUser = "\(name!) \(lastName!)"
-                    print(self.nameUser)
                     self.performSegue(withIdentifier: "segueLogin", sender: nil)
                 }else{
                     self.alertMessage("Error", "Error en tu usuario y/o contraseña")
@@ -106,9 +106,9 @@ class LoginController: UIViewController {
         login()
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let viewController = segue.destination
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        let viewController = segue.destination
+//    }
     
 }
 
