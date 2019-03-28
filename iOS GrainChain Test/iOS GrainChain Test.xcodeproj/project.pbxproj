@@ -21,6 +21,8 @@
 		9CC06279224CA27C00528D4F /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC06278224CA27C00528D4F /* ContactsTableViewCell.swift */; };
 		9CC0627B224CA94900528D4F /* ContactsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0627A224CA94900528D4F /* ContactsInfo.swift */; };
 		9CC0627D224CC86100528D4F /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0627C224CC86100528D4F /* RegisterController.swift */; };
+		9CC0627F224CE92F00528D4F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0627E224CE92F00528D4F /* TabBarController.swift */; };
+		9CC06281224D027E00528D4F /* userDefaultsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC06280224D027E00528D4F /* userDefaultsInfo.swift */; };
 		A5062F2471CCC694CCA282BD /* Pods_iOS_GrainChain_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70ACFECF446A91B3B937CA7E /* Pods_iOS_GrainChain_TestUITests.framework */; };
 		AD3850EC51F7DC1C4BC61056 /* Pods_iOS_GrainChain_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC6F0B31E3497404D0C547E /* Pods_iOS_GrainChain_TestTests.framework */; };
 /* End PBXBuildFile section */
@@ -69,6 +71,8 @@
 		9CC06278224CA27C00528D4F /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
 		9CC0627A224CA94900528D4F /* ContactsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsInfo.swift; sourceTree = "<group>"; };
 		9CC0627C224CC86100528D4F /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		9CC0627E224CE92F00528D4F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		9CC06280224D027E00528D4F /* userDefaultsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDefaultsInfo.swift; sourceTree = "<group>"; };
 		AD744DCBA4F1FCAE09481BD1 /* Pods-iOS GrainChain TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS GrainChain TestTests.release.xcconfig"; path = "Target Support Files/Pods-iOS GrainChain TestTests/Pods-iOS GrainChain TestTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED9694E8B1BEA0FA15BF26C3 /* Pods-iOS GrainChain Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS GrainChain Test.release.xcconfig"; path = "Target Support Files/Pods-iOS GrainChain Test/Pods-iOS GrainChain Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -161,6 +165,8 @@
 				9CC06278224CA27C00528D4F /* ContactsTableViewCell.swift */,
 				9CC0627A224CA94900528D4F /* ContactsInfo.swift */,
 				9CC0627C224CC86100528D4F /* RegisterController.swift */,
+				9CC0627E224CE92F00528D4F /* TabBarController.swift */,
+				9CC06280224D027E00528D4F /* userDefaultsInfo.swift */,
 			);
 			path = "iOS GrainChain Test";
 			sourceTree = "<group>";
@@ -411,7 +417,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CC06247224C7F3B00528D4F /* LoginController.swift in Sources */,
+				9CC0627F224CE92F00528D4F /* TabBarController.swift in Sources */,
 				9CC06245224C7F3B00528D4F /* AppDelegate.swift in Sources */,
+				9CC06281224D027E00528D4F /* userDefaultsInfo.swift in Sources */,
 				9CC0627B224CA94900528D4F /* ContactsInfo.swift in Sources */,
 				9CC0627D224CC86100528D4F /* RegisterController.swift in Sources */,
 				9CC06279224CA27C00528D4F /* ContactsTableViewCell.swift in Sources */,

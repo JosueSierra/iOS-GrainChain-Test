@@ -20,8 +20,9 @@ class LoginController: UIViewController {
     
     let baseUrl = "https://kdmldkvxoe.execute-api.us-west-2.amazonaws.com/test"
     var alert =  UIAlertController()
-    var statusCode: Int?
+    var statusCode = 0
     var nameUser = String()
+    let userDefault = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -79,7 +80,7 @@ class LoginController: UIViewController {
             let data = response.result.value
             let errorMessage = ((data as! [String:Any])["errorMessage"])
             if errorMessage == nil {
-                self.statusCode = (data as! NSDictionary).value(forKey: "statusCode") as? Int
+                self.statusCode = (data as! NSDictionary).value(forKey: "statusCode") as! Int
             }
             switch response.result{
             case.success:
@@ -106,9 +107,12 @@ class LoginController: UIViewController {
         login()
     }
     
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        let viewController = segue.destination
-//    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let viewController = segue.destination as! UITabBarController
+        let secondViewController = viewController.viewControllers![0]  as! ContactsController
+        secondViewController.nameUser = self.nameUser
+        userDefault.set(self.nameUser, forKey: "name")
+    }
     
 }
 

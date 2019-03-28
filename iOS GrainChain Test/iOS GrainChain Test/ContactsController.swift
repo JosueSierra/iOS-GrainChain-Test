@@ -8,17 +8,27 @@
 
 import UIKit
 
-class ContactsController: UIViewController, UITableViewDelegate,UITableViewDataSource, UISearchControllerDelegate, UISearchBarDelegate, UISearchResultsUpdating {
+class ContactsController: UIViewController, UITableViewDelegate,UITableViewDataSource, UISearchControllerDelegate, UISearchBarDelegate, UISearchResultsUpdating,UITabBarDelegate, UITabBarControllerDelegate{
     
+    @IBOutlet weak var itemTabBarContacts: UITabBarItem!
+    @IBOutlet weak var navItemContacts: UINavigationItem!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var navBarContacts: UINavigationBar!
     
     var isFiltering = false
     var filterArray = [String:[String]]()
+    var nameUser = String()
+    let userDefaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        navItemContacts.title = userDefaults.string(forKey: "name")
+        UserDefaultsInfo.instance.assignValues()
+        tableView.reloadData()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -54,6 +64,7 @@ class ContactsController: UIViewController, UITableViewDelegate,UITableViewDataS
         if editingStyle == UITableViewCell.EditingStyle.delete {
             removeInfoContacts(indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .automatic)
+            UserDefaultsInfo.instance.saveInfo()
             tableView.reloadData()
         }
     }
