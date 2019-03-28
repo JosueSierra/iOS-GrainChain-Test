@@ -37,6 +37,10 @@ class RegisterController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         nameUser = userDefaults.string(forKey: "name")!
         print(userDefaults.string(forKey: "name")!)
         lblTitle.text! = nameUser
+        txtName.delegate = self
+        txtLastname.delegate = self
+        txtAge.delegate = self
+        txtPhone.delegate = self
     }
     
     func gestureRecognizer(){
@@ -122,5 +126,21 @@ class RegisterController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         txtAge.text = ""
         txtPhone.text = ""
 
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if textField == txtName{
+            txtLastname.becomeFirstResponder()
+            return true
+        }
+        if textField == txtLastname{
+            txtAge.becomeFirstResponder()
+            return true
+        }
+        if textField == txtAge{
+            txtPhone.becomeFirstResponder()
+            return true
+        }
+        return false
     }
 }

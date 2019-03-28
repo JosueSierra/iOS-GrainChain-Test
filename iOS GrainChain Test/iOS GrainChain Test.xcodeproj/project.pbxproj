@@ -15,7 +15,6 @@
 		9CC0624F224C7F3D00528D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC0624D224C7F3D00528D4F /* LaunchScreen.storyboard */; };
 		9CC0625A224C7F3E00528D4F /* iOS_GrainChain_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC06259224C7F3E00528D4F /* iOS_GrainChain_TestTests.swift */; };
 		9CC06265224C7F3E00528D4F /* iOS_GrainChain_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC06264224C7F3E00528D4F /* iOS_GrainChain_TestUITests.swift */; };
-		9CC06273224C803C00528D4F /* grainChain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9CC06272224C803B00528D4F /* grainChain.jpg */; };
 		9CC06275224C907C00528D4F /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC06274224C907C00528D4F /* Connectivity.swift */; };
 		9CC06277224CA21400528D4F /* ContactsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC06276224CA21400528D4F /* ContactsController.swift */; };
 		9CC06279224CA27C00528D4F /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC06278224CA27C00528D4F /* ContactsTableViewCell.swift */; };
@@ -65,7 +64,6 @@
 		9CC06260224C7F3E00528D4F /* iOS GrainChain TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS GrainChain TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC06264224C7F3E00528D4F /* iOS_GrainChain_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_GrainChain_TestUITests.swift; sourceTree = "<group>"; };
 		9CC06266224C7F3E00528D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CC06272224C803B00528D4F /* grainChain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grainChain.jpg; sourceTree = "<group>"; };
 		9CC06274224C907C00528D4F /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
 		9CC06276224CA21400528D4F /* ContactsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsController.swift; sourceTree = "<group>"; };
 		9CC06278224CA27C00528D4F /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
@@ -156,7 +154,6 @@
 				9CC06244224C7F3B00528D4F /* AppDelegate.swift */,
 				9CC06246224C7F3B00528D4F /* LoginController.swift */,
 				9CC06248224C7F3B00528D4F /* Main.storyboard */,
-				9CC06272224C803B00528D4F /* grainChain.jpg */,
 				9CC0624B224C7F3D00528D4F /* Assets.xcassets */,
 				9CC0624D224C7F3D00528D4F /* LaunchScreen.storyboard */,
 				9CC06250224C7F3D00528D4F /* Info.plist */,
@@ -298,7 +295,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CC0624F224C7F3D00528D4F /* LaunchScreen.storyboard in Resources */,
-				9CC06273224C803C00528D4F /* grainChain.jpg in Resources */,
 				9CC0624C224C7F3D00528D4F /* Assets.xcassets in Resources */,
 				9CC0624A224C7F3B00528D4F /* Main.storyboard in Resources */,
 			);
@@ -537,6 +533,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -591,6 +588,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -610,7 +608,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sokolabs.iOS-GrainChain-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -630,7 +628,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sokolabs.iOS-GrainChain-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -651,7 +649,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sokolabs.iOS-GrainChain-TestTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS GrainChain Test.app/iOS GrainChain Test";
 			};
@@ -673,7 +671,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sokolabs.iOS-GrainChain-TestTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS GrainChain Test.app/iOS GrainChain Test";
 			};
@@ -694,7 +692,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sokolabs.iOS-GrainChain-TestUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "iOS GrainChain Test";
 			};
@@ -715,7 +713,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sokolabs.iOS-GrainChain-TestUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "iOS GrainChain Test";
 			};
