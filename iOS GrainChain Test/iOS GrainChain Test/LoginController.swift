@@ -76,7 +76,6 @@ class LoginController: UIViewController {
                           "password": txtPassword.text!]
         Alamofire.request(baseUrl, method: .post, parameters: parameters, encoding: JSONEncoding.default).responseJSON { (response) in
             self.alert.dismiss(animated: true, completion: nil)
-            print(response.result.value)
             let data = response.result.value
             let errorMessage = ((data as! [String:Any])["errorMessage"])
             if errorMessage == nil {
@@ -112,6 +111,7 @@ class LoginController: UIViewController {
         let secondViewController = viewController.viewControllers![0]  as! ContactsController
         secondViewController.nameUser = self.nameUser
         userDefault.set(self.nameUser, forKey: "name")
+        userDefault.set(true, forKey: "firstone")
     }
     
 }

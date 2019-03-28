@@ -35,7 +35,6 @@ class RegisterController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     
     override func viewDidAppear(_ animated: Bool) {
         nameUser = userDefaults.string(forKey: "name")!
-        print(userDefaults.string(forKey: "name")!)
         lblTitle.text! = nameUser
         txtName.delegate = self
         txtLastname.delegate = self

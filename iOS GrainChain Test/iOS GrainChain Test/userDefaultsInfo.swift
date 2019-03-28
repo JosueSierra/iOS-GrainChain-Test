@@ -23,6 +23,11 @@ class UserDefaultsInfo {
     }
     
     func assignValues(){
+        if userDefaults.bool(forKey: "firstone"){
+            return
+        }
+        userDefaults.set(false, forKey: "firstone")
+        userDefaults.synchronize()
         ContactsInfo.instance.arrayName = userDefaults.array(forKey: "ArrayName") as! [String]
         ContactsInfo.instance.arrayLastName = userDefaults.array(forKey: "ArrayLastname") as! [String]
         ContactsInfo.instance.arrayAge = userDefaults.array(forKey: "ArrayAge") as! [Int]
