@@ -488,7 +488,7 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Izc-an-i9X">
+                                                        <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Izc-an-i9X">
                                                             <rect key="frame" x="225" y="17" width="159" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="KyE-Tf-rKI"/>
@@ -497,7 +497,7 @@
                                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                             <textInputTraits key="textInputTraits"/>
                                                         </textField>
-                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c7O-y4-rYy">
+                                                        <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c7O-y4-rYy">
                                                             <rect key="frame" x="220" y="45" width="164" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="0mZ-no-oDa"/>
@@ -506,7 +506,7 @@
                                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                             <textInputTraits key="textInputTraits"/>
                                                         </textField>
-                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L0Y-nm-cOp">
+                                                        <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L0Y-nm-cOp">
                                                             <rect key="frame" x="202" y="72" width="67" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="dXU-60-Pdi"/>
@@ -515,7 +515,7 @@
                                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                             <textInputTraits key="textInputTraits"/>
                                                         </textField>
-                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EiW-vh-nJm">
+                                                        <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EiW-vh-nJm">
                                                             <rect key="frame" x="224" y="101" width="160" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="eGW-NK-eEa"/>
