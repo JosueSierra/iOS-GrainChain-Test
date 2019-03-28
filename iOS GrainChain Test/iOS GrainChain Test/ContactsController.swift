@@ -90,12 +90,12 @@ class ContactsController: UIViewController, UITableViewDelegate,UITableViewDataS
             tableView.reloadData()
             return
         }
-         filterArray = ContactsInfo.instance.dictContact.filter { (contacts) -> Bool in
+        filterArray = ContactsInfo.instance.dictContact.filter { (contacts) -> Bool in
             return contacts.key.lowercased().contains(searchController.searchBar.text!.lowercased())
         }
         isFiltering = true
         tableView.reloadData()
     }
     
-   
+    
 }
