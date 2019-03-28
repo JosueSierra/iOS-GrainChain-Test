@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31FED911CA7C592DC5B863C1 /* Pods_iOS_GrainChain_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F24D7C8F9943165464C3DB4 /* Pods_iOS_GrainChain_Test.framework */; };
+		9CC06245224C7F3B00528D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC06244224C7F3B00528D4F /* AppDelegate.swift */; };
+		9CC06247224C7F3B00528D4F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC06246224C7F3B00528D4F /* LoginController.swift */; };
+		9CC0624A224C7F3B00528D4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC06248224C7F3B00528D4F /* Main.storyboard */; };
+		9CC0624C224C7F3D00528D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC0624B224C7F3D00528D4F /* Assets.xcassets */; };
+		9CC0624F224C7F3D00528D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC0624D224C7F3D00528D4F /* LaunchScreen.storyboard */; };
+		9CC0625A224C7F3E00528D4F /* iOS_GrainChain_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC06259224C7F3E00528D4F /* iOS_GrainChain_TestTests.swift */; };
+		9CC06265224C7F3E00528D4F /* iOS_GrainChain_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC06264224C7F3E00528D4F /* iOS_GrainChain_TestUITests.swift */; };
+		9CC06275224C907C00528D4F /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC06274224C907C00528D4F /* Connectivity.swift */; };
+		9CC06277224CA21400528D4F /* ContactsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC06276224CA21400528D4F /* ContactsController.swift */; };
+		9CC06279224CA27C00528D4F /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC06278224CA27C00528D4F /* ContactsTableViewCell.swift */; };
+		9CC0627B224CA94900528D4F /* ContactsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0627A224CA94900528D4F /* ContactsInfo.swift */; };
+		9CC0627D224CC86100528D4F /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0627C224CC86100528D4F /* RegisterController.swift */; };
+		9CC0627F224CE92F00528D4F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0627E224CE92F00528D4F /* TabBarController.swift */; };
+		9CC06281224D027E00528D4F /* userDefaultsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC06280224D027E00528D4F /* userDefaultsInfo.swift */; };
+		A5062F2471CCC694CCA282BD /* Pods_iOS_GrainChain_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70ACFECF446A91B3B937CA7E /* Pods_iOS_GrainChain_TestUITests.framework */; };
+		AD3850EC51F7DC1C4BC61056 /* Pods_iOS_GrainChain_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC6F0B31E3497404D0C547E /* Pods_iOS_GrainChain_TestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CC06256224C7F3E00528D4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CC06239224C7F3B00528D4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CC06240224C7F3B00528D4F;
+			remoteInfo = "iOS GrainChain Test";
+		};
+		9CC06261224C7F3E00528D4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CC06239224C7F3B00528D4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CC06240224C7F3B00528D4F;
+			remoteInfo = "iOS GrainChain Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F24D7C8F9943165464C3DB4 /* Pods_iOS_GrainChain_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_GrainChain_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EAF697480747CACB8E35598 /* Pods-iOS GrainChain Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS GrainChain Test.debug.xcconfig"; path = "Target Support Files/Pods-iOS GrainChain Test/Pods-iOS GrainChain Test.debug.xcconfig"; sourceTree = "<group>"; };
+		5B04072CA79C4D244BE04D1C /* Pods-iOS GrainChain TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS GrainChain TestTests.debug.xcconfig"; path = "Target Support Files/Pods-iOS GrainChain TestTests/Pods-iOS GrainChain TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AC6F0B31E3497404D0C547E /* Pods_iOS_GrainChain_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_GrainChain_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70ACFECF446A91B3B937CA7E /* Pods_iOS_GrainChain_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_GrainChain_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3B4841E686D213AC7238D6 /* Pods-iOS GrainChain TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS GrainChain TestUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOS GrainChain TestUITests/Pods-iOS GrainChain TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		84CB10FFF0CC9371ED63C507 /* Pods-iOS GrainChain TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS GrainChain TestUITests.release.xcconfig"; path = "Target Support Files/Pods-iOS GrainChain TestUITests/Pods-iOS GrainChain TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9CC06241224C7F3B00528D4F /* iOS GrainChain Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS GrainChain Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC06244224C7F3B00528D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CC06246224C7F3B00528D4F /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		9CC06249224C7F3B00528D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CC0624B224C7F3D00528D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CC0624E224C7F3D00528D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CC06250224C7F3D00528D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC06255224C7F3E00528D4F /* iOS GrainChain TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS GrainChain TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC06259224C7F3E00528D4F /* iOS_GrainChain_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_GrainChain_TestTests.swift; sourceTree = "<group>"; };
+		9CC0625B224C7F3E00528D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC06260224C7F3E00528D4F /* iOS GrainChain TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS GrainChain TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC06264224C7F3E00528D4F /* iOS_GrainChain_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_GrainChain_TestUITests.swift; sourceTree = "<group>"; };
+		9CC06266224C7F3E00528D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC06274224C907C00528D4F /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		9CC06276224CA21400528D4F /* ContactsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsController.swift; sourceTree = "<group>"; };
+		9CC06278224CA27C00528D4F /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
+		9CC0627A224CA94900528D4F /* ContactsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsInfo.swift; sourceTree = "<group>"; };
+		9CC0627C224CC86100528D4F /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		9CC0627E224CE92F00528D4F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		9CC06280224D027E00528D4F /* userDefaultsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDefaultsInfo.swift; sourceTree = "<group>"; };
+		AD744DCBA4F1FCAE09481BD1 /* Pods-iOS GrainChain TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS GrainChain TestTests.release.xcconfig"; path = "Target Support Files/Pods-iOS GrainChain TestTests/Pods-iOS GrainChain TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED9694E8B1BEA0FA15BF26C3 /* Pods-iOS GrainChain Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS GrainChain Test.release.xcconfig"; path = "Target Support Files/Pods-iOS GrainChain Test/Pods-iOS GrainChain Test.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CC0623E224C7F3B00528D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FED911CA7C592DC5B863C1 /* Pods_iOS_GrainChain_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC06252224C7F3E00528D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3850EC51F7DC1C4BC61056 /* Pods_iOS_GrainChain_TestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC0625D224C7F3E00528D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5062F2471CCC694CCA282BD /* Pods_iOS_GrainChain_TestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11CEDAA4D6A9A82EDA9DA60F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F24D7C8F9943165464C3DB4 /* Pods_iOS_GrainChain_Test.framework */,
+				6AC6F0B31E3497404D0C547E /* Pods_iOS_GrainChain_TestTests.framework */,
+				70ACFECF446A91B3B937CA7E /* Pods_iOS_GrainChain_TestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67966409CE3EAA6971BFA848 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EAF697480747CACB8E35598 /* Pods-iOS GrainChain Test.debug.xcconfig */,
+				ED9694E8B1BEA0FA15BF26C3 /* Pods-iOS GrainChain Test.release.xcconfig */,
+				5B04072CA79C4D244BE04D1C /* Pods-iOS GrainChain TestTests.debug.xcconfig */,
+				AD744DCBA4F1FCAE09481BD1 /* Pods-iOS GrainChain TestTests.release.xcconfig */,
+				7E3B4841E686D213AC7238D6 /* Pods-iOS GrainChain TestUITests.debug.xcconfig */,
+				84CB10FFF0CC9371ED63C507 /* Pods-iOS GrainChain TestUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9CC06238224C7F3B00528D4F = {
+			isa = PBXGroup;
+			children = (
+				9CC06243224C7F3B00528D4F /* iOS GrainChain Test */,
+				9CC06258224C7F3E00528D4F /* iOS GrainChain TestTests */,
+				9CC06263224C7F3E00528D4F /* iOS GrainChain TestUITests */,
+				9CC06242224C7F3B00528D4F /* Products */,
+				67966409CE3EAA6971BFA848 /* Pods */,
+				11CEDAA4D6A9A82EDA9DA60F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9CC06242224C7F3B00528D4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CC06241224C7F3B00528D4F /* iOS GrainChain Test.app */,
+				9CC06255224C7F3E00528D4F /* iOS GrainChain TestTests.xctest */,
+				9CC06260224C7F3E00528D4F /* iOS GrainChain TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CC06243224C7F3B00528D4F /* iOS GrainChain Test */ = {
+			isa = PBXGroup;
+			children = (
+				9CC06244224C7F3B00528D4F /* AppDelegate.swift */,
+				9CC06246224C7F3B00528D4F /* LoginController.swift */,
+				9CC06248224C7F3B00528D4F /* Main.storyboard */,
+				9CC0624B224C7F3D00528D4F /* Assets.xcassets */,
+				9CC0624D224C7F3D00528D4F /* LaunchScreen.storyboard */,
+				9CC06250224C7F3D00528D4F /* Info.plist */,
+				9CC06274224C907C00528D4F /* Connectivity.swift */,
+				9CC06276224CA21400528D4F /* ContactsController.swift */,
+				9CC06278224CA27C00528D4F /* ContactsTableViewCell.swift */,
+				9CC0627A224CA94900528D4F /* ContactsInfo.swift */,
+				9CC0627C224CC86100528D4F /* RegisterController.swift */,
+				9CC0627E224CE92F00528D4F /* TabBarController.swift */,
+				9CC06280224D027E00528D4F /* userDefaultsInfo.swift */,
+			);
+			path = "iOS GrainChain Test";
+			sourceTree = "<group>";
+		};
+		9CC06258224C7F3E00528D4F /* iOS GrainChain TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CC06259224C7F3E00528D4F /* iOS_GrainChain_TestTests.swift */,
+				9CC0625B224C7F3E00528D4F /* Info.plist */,
+			);
+			path = "iOS GrainChain TestTests";
+			sourceTree = "<group>";
+		};
+		9CC06263224C7F3E00528D4F /* iOS GrainChain TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CC06264224C7F3E00528D4F /* iOS_GrainChain_TestUITests.swift */,
+				9CC06266224C7F3E00528D4F /* Info.plist */,
+			);
+			path = "iOS GrainChain TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CC06240224C7F3B00528D4F /* iOS GrainChain Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CC06269224C7F3E00528D4F /* Build configuration list for PBXNativeTarget "iOS GrainChain Test" */;
+			buildPhases = (
+				304739571870271A6FE90705 /* [CP] Check Pods Manifest.lock */,
+				9CC0623D224C7F3B00528D4F /* Sources */,
+				9CC0623E224C7F3B00528D4F /* Frameworks */,
+				9CC0623F224C7F3B00528D4F /* Resources */,
+				D30D8C905423862565420DF9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS GrainChain Test";
+			productName = "iOS GrainChain Test";
+			productReference = 9CC06241224C7F3B00528D4F /* iOS GrainChain Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CC06254224C7F3E00528D4F /* iOS GrainChain TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CC0626C224C7F3E00528D4F /* Build configuration list for PBXNativeTarget "iOS GrainChain TestTests" */;
+			buildPhases = (
+				153DC0AE894634A94C733806 /* [CP] Check Pods Manifest.lock */,
+				9CC06251224C7F3E00528D4F /* Sources */,
+				9CC06252224C7F3E00528D4F /* Frameworks */,
+				9CC06253224C7F3E00528D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CC06257224C7F3E00528D4F /* PBXTargetDependency */,
+			);
+			name = "iOS GrainChain TestTests";
+			productName = "iOS GrainChain TestTests";
+			productReference = 9CC06255224C7F3E00528D4F /* iOS GrainChain TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CC0625F224C7F3E00528D4F /* iOS GrainChain TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CC0626F224C7F3E00528D4F /* Build configuration list for PBXNativeTarget "iOS GrainChain TestUITests" */;
+			buildPhases = (
+				08D318B25A387A721812BABE /* [CP] Check Pods Manifest.lock */,
+				9CC0625C224C7F3E00528D4F /* Sources */,
+				9CC0625D224C7F3E00528D4F /* Frameworks */,
+				9CC0625E224C7F3E00528D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CC06262224C7F3E00528D4F /* PBXTargetDependency */,
+			);
+			name = "iOS GrainChain TestUITests";
+			productName = "iOS GrainChain TestUITests";
+			productReference = 9CC06260224C7F3E00528D4F /* iOS GrainChain TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CC06239224C7F3B00528D4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = roho;
+				TargetAttributes = {
+					9CC06240224C7F3B00528D4F = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					9CC06254224C7F3E00528D4F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 9CC06240224C7F3B00528D4F;
+					};
+					9CC0625F224C7F3E00528D4F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 9CC06240224C7F3B00528D4F;
+					};
+				};
+			};
+			buildConfigurationList = 9CC0623C224C7F3B00528D4F /* Build configuration list for PBXProject "iOS GrainChain Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CC06238224C7F3B00528D4F;
+			productRefGroup = 9CC06242224C7F3B00528D4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CC06240224C7F3B00528D4F /* iOS GrainChain Test */,
+				9CC06254224C7F3E00528D4F /* iOS GrainChain TestTests */,
+				9CC0625F224C7F3E00528D4F /* iOS GrainChain TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CC0623F224C7F3B00528D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC0624F224C7F3D00528D4F /* LaunchScreen.storyboard in Resources */,
+				9CC0624C224C7F3D00528D4F /* Assets.xcassets in Resources */,
+				9CC0624A224C7F3B00528D4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC06253224C7F3E00528D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC0625E224C7F3E00528D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08D318B25A387A721812BABE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS GrainChain TestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		153DC0AE894634A94C733806 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS GrainChain TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		304739571870271A6FE90705 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS GrainChain Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D30D8C905423862565420DF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS GrainChain Test/Pods-iOS GrainChain Test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS GrainChain Test/Pods-iOS GrainChain Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CC0623D224C7F3B00528D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC06247224C7F3B00528D4F /* LoginController.swift in Sources */,
+				9CC0627F224CE92F00528D4F /* TabBarController.swift in Sources */,
+				9CC06245224C7F3B00528D4F /* AppDelegate.swift in Sources */,
+				9CC06281224D027E00528D4F /* userDefaultsInfo.swift in Sources */,
+				9CC0627B224CA94900528D4F /* ContactsInfo.swift in Sources */,
+				9CC0627D224CC86100528D4F /* RegisterController.swift in Sources */,
+				9CC06279224CA27C00528D4F /* ContactsTableViewCell.swift in Sources */,
+				9CC06277224CA21400528D4F /* ContactsController.swift in Sources */,
+				9CC06275224C907C00528D4F /* Connectivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC06251224C7F3E00528D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC0625A224C7F3E00528D4F /* iOS_GrainChain_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC0625C224C7F3E00528D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC06265224C7F3E00528D4F /* iOS_GrainChain_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CC06257224C7F3E00528D4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CC06240224C7F3B00528D4F /* iOS GrainChain Test */;
+			targetProxy = 9CC06256224C7F3E00528D4F /* PBXContainerItemProxy */;
+		};
+		9CC06262224C7F3E00528D4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CC06240224C7F3B00528D4F /* iOS GrainChain Test */;
+			targetProxy = 9CC06261224C7F3E00528D4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CC06248224C7F3B00528D4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CC06249224C7F3B00528D4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CC0624D224C7F3D00528D4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CC0624E224C7F3D00528D4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CC06267224C7F3E00528D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		9CC06268224C7F3E00528D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CC0626A224C7F3E00528D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EAF697480747CACB8E35598 /* Pods-iOS GrainChain Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZQ2NX3EL5;
+				INFOPLIST_FILE = "iOS GrainChain Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sokolabs.iOS-GrainChain-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CC0626B224C7F3E00528D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9694E8B1BEA0FA15BF26C3 /* Pods-iOS GrainChain Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZQ2NX3EL5;
+				INFOPLIST_FILE = "iOS GrainChain Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sokolabs.iOS-GrainChain-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9CC0626D224C7F3E00528D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B04072CA79C4D244BE04D1C /* Pods-iOS GrainChain TestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZQ2NX3EL5;
+				INFOPLIST_FILE = "iOS GrainChain TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sokolabs.iOS-GrainChain-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS GrainChain Test.app/iOS GrainChain Test";
+			};
+			name = Debug;
+		};
+		9CC0626E224C7F3E00528D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD744DCBA4F1FCAE09481BD1 /* Pods-iOS GrainChain TestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZQ2NX3EL5;
+				INFOPLIST_FILE = "iOS GrainChain TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sokolabs.iOS-GrainChain-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS GrainChain Test.app/iOS GrainChain Test";
+			};
+			name = Release;
+		};
+		9CC06270224C7F3E00528D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3B4841E686D213AC7238D6 /* Pods-iOS GrainChain TestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZQ2NX3EL5;
+				INFOPLIST_FILE = "iOS GrainChain TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sokolabs.iOS-GrainChain-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS GrainChain Test";
+			};
+			name = Debug;
+		};
+		9CC06271224C7F3E00528D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84CB10FFF0CC9371ED63C507 /* Pods-iOS GrainChain TestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZQ2NX3EL5;
+				INFOPLIST_FILE = "iOS GrainChain TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sokolabs.iOS-GrainChain-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS GrainChain Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CC0623C224C7F3B00528D4F /* Build configuration list for PBXProject "iOS GrainChain Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC06267224C7F3E00528D4F /* Debug */,
+				9CC06268224C7F3E00528D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CC06269224C7F3E00528D4F /* Build configuration list for PBXNativeTarget "iOS GrainChain Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC0626A224C7F3E00528D4F /* Debug */,
+				9CC0626B224C7F3E00528D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CC0626C224C7F3E00528D4F /* Build configuration list for PBXNativeTarget "iOS GrainChain TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC0626D224C7F3E00528D4F /* Debug */,
+				9CC0626E224C7F3E00528D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CC0626F224C7F3E00528D4F /* Build configuration list for PBXNativeTarget "iOS GrainChain TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC06270224C7F3E00528D4F /* Debug */,
+				9CC06271224C7F3E00528D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CC06239224C7F3B00528D4F /* Project object */;
+}
