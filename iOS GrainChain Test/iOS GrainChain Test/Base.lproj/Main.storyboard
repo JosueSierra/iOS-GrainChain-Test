@@ -184,7 +184,13 @@
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.4823529412" green="0.75686274509999996" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
-                                    <navigationItem title="Title" id="CXx-EU-FJe"/>
+                                    <navigationItem title="Title" id="CXx-EU-FJe">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="WkW-wi-zCO">
+                                            <connections>
+                                                <action selector="itemSearch:" destination="HE1-3c-0pk" id="FJR-3f-HJa"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ey6-JT-r9U">
