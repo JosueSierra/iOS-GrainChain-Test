@@ -8,8 +8,10 @@
 
 import UIKit
 
-class RegisterController: UIViewController {
-
+class RegisterController: UIViewController, UITextFieldDelegate {
+    
+    @IBOutlet weak var constBottomButton: NSLayoutConstraint!
+    @IBOutlet weak var btnAddUser: UIButton!
     @IBOutlet weak var imgPhoto: UIView!
     @IBOutlet weak var txtPhone: UITextField!
     @IBOutlet weak var txtAge: UITextField!
@@ -19,6 +21,16 @@ class RegisterController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         propertiesField()
+        gestureRecognizer()
+    }
+    
+    func gestureRecognizer(){
+        let tapView = UITapGestureRecognizer.init(target: self, action: #selector(tapView(_:)))
+        self.view.addGestureRecognizer(tapView)
+    }
+    
+    @objc func tapView(_ sender: UIGestureRecognizer){
+        self.view.endEditing(true)
     }
     
     func propertiesField(){
@@ -34,5 +46,8 @@ class RegisterController: UIViewController {
         imgPhoto.layer.cornerRadius = imgPhoto.frame.width / 2
         imgPhoto.layer.borderWidth = 1.1
         imgPhoto.layer.borderColor = #colorLiteral(red: 0.4823529412, green: 0.7568627451, blue: 0.3294117647, alpha: 1)
+    }
+    
+    @IBAction func btnAddUser(_ sender: Any) {
     }
 }
